@@ -1,0 +1,74 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.slider {
+    margin: 30px 0 10px 0;
+    position: relative;
+}
+
+.slider .owl-item.active.center .slider-card {
+    transform: scale(1.15);
+    filter: brightness(100%);
+    filter: drop-shadow(0px 30px 9px rgba(0, 0, 0, 0.25));
+}
+
+.slider-card {
+    margin: 50px 0 160px 0;
+    transform: scale(0.9);
+    filter: brightness(40%);
+    transition: all 0.3s;
+}
+
+
+.owl-nav .owl-prev {
+    margin-left: 10px;
+    position: absolute;
+    top: calc(55% - 25px);
+    left: 0;
+    opacity: 1;
+    font-size: 18px !important;
+    z-index: 1;
+}
+.owl-nav .owl-next {
+    margin-right: 10px;
+    position: absolute;
+    top: calc(55% - 25px);
+    right: 0;
+    opacity: 1;
+    font-size: 18px !important;
+    z-index: 1;
+    color: white;
+}
+
+.owl-nav .fa-angle-left {
+    padding: 2px 5px;
+    background-color: #0A62A8;
+    color: white;
+}
+
+.owl-nav .fa-angle-right {
+    padding: 2px 5px;
+    background-color: #0A62A8;
+    color: white;
+}
+
+.owl-dots {
+    text-align: center;
+    margin-top: -150px;
+}
+.owl-dots .owl-dot {
+    height: 6px;
+    width: 6px;
+    border-radius: 10px;
+    background: #ccc !important;
+    margin: 0 1px;
+    outline: none;
+}
+.owl-dots .owl-dot.active {
+    background: #0A62A8 !important;
+}
+
+
+
+

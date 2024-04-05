@@ -1,0 +1,859 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+html,body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  top: 135px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  position: relative;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  object-fit: cover;
+  filter: brightness(40%);
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-button-next {
+  color: #898C8F;
+}
+
+.swiper-button-prev {
+  color: #898C8F;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+  background: #C4C4C4;
+}
+
+.swiper-pagination .swiper-pagination-bullet.active {
+  background: white;
+}
+
+.carousel-caption {
+  position: absolute;
+  text-align: left;
+  width: 40%;
+  margin-bottom: 70px;
+}
+      
+.carousel-caption h1 {
+  letter-spacing: 3px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.carousel-caption .button a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  background-color: #0a62a8;
+  border-radius: 2px;
+  padding: 12px 20px;
+}      
+
+.carousel-caption label {
+  margin: 6px 20px;
+  font-weight: 500;
+}
+      
+.carousel-caption .title {
+  background-color: white;
+  color: #344f7a;
+  border-radius: 100px 100px 0 100px;
+  width: 280px;
+  height: 34px;
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+      
+.carousel-caption p {
+  font-weight: 300;
+  color: #E7E7E7;
+  font-family: 'Roboto';
+}
+      
+.carousel-caption .title label {
+  margin: 2px 0;
+}
+      
+.title label {
+  font-family: 'Kanit', sans-serif;
+  font-size: 22px;
+}
+      
+@media only screen and (max-width: 320px) {
+
+  .swiper {
+	  top: 70px;
+	  width: 100%;
+	  height: 87.4%;
+	}
+
+  .swiper-button-next  {
+    visibility: hidden;
+  }
+
+  .swiper-button-prev {
+    visibility: hidden;
+  }
+
+	.carousel-caption {
+    text-align: center;
+	  display: flex;
+    align-items: center;
+    flex-direction: column;
+	  width: 100%;
+	  margin-bottom: 97px;
+    left: 0;
+	}
+  
+	.carousel-caption label {
+	  margin: 0;
+	}
+  
+	.title label {
+	  font-family: 'Kanit';
+	  font-size: 12px;
+    
+	}
+  
+	.carousel-caption h1 {
+	  font-family: 'Roboto', sans-serif;
+	  font-size: 16px;
+	}
+  
+	.carousel-caption .title {
+	  border-radius: 100px 100px 0 100px;
+	  width: 182px;
+	  height: 28px;
+	  margin: 0 0 20px 0px;
+	}
+  
+	.swiper-slide p {
+    width: 81%;
+	  font-size: 13px;
+	
+	}
+  
+	.carousel-caption .button a {
+	  font-family: 'Roboto', sans-serif;
+	  text-decoration: none;
+	  font-size: 12px;
+	  color: white;
+	  font-weight: 400;
+	  background-color: #0a62a8;
+	  border-radius: 2px;
+	  padding: 8px 10px;
+	}   
+  
+  .carousel-caption .button {
+    margin-top: 1px;
+  }
+
+}
+
+@media (min-width: 360px) and  (max-width:375px){
+  .swiper {
+	  top: 77px;
+	  width: 100%;
+	  height: 89.9%;
+	}
+
+  .swiper-button-next  {
+    visibility: hidden;
+  }
+
+  .swiper-button-prev {
+    visibility: hidden;
+  }
+
+	.carousel-caption {
+    text-align: center;
+	  display: flex;
+    align-items: center;
+    flex-direction: column;
+	  width: 100%;
+	  margin-bottom: 220px;
+    left: 0;
+	}
+  
+	.carousel-caption label {
+	  margin: 0;
+	}
+  
+	.title label {
+	  font-family: 'Kanit', sans-serif;
+	  font-size: 14px;
+	}
+  
+	.carousel-caption h1 {
+	  font-family: 'Roboto', sans-serif;
+	  font-size: 19px;
+	}
+  
+	.carousel-caption .title {
+	  border-radius: 100px 100px 0 100px;
+	  width: 210px;
+	  height: 30px;
+	  margin: 0 0 30px 0;
+	}
+  
+	.swiper-slide p {
+    width: 88%;
+	  font-size: 16px;
+	
+	}
+  
+	.carousel-caption .button a {
+	  font-family: 'Roboto', sans-serif;
+	  text-decoration: none;
+	  font-size: 14px;
+	  color: white;
+	  font-weight: 400;
+	  background-color: #0a62a8;
+	  border-radius: 2px;
+	  padding: 10px 12px;
+    
+	}  
+
+  .carousel-caption .button {
+    margin-top: 14px;
+  }
+
+}
+
+@media (min-width: 375px) and  (max-width:376px){
+  .swiper {
+	  top: 77px;
+	  width: 100%;
+	  height: 90%;
+	}
+
+  .swiper-button-next  {
+    visibility: hidden;
+  }
+
+  .swiper-button-prev {
+    visibility: hidden;
+  }
+
+	.carousel-caption {
+    text-align: center;
+	  display: flex;
+    align-items: center;
+    flex-direction: column;
+	  width: 100%;
+	  margin-bottom: 230px;
+    left: 0;
+	}
+  
+	.carousel-caption label {
+	  margin: 0;
+	}
+  
+	.title label {
+	  font-family: 'Kanit', sans-serif;
+	  font-size: 18px;
+	}
+  
+	.carousel-caption h1 {
+	  font-family: 'Roboto', sans-serif;
+	  font-size: 21px;
+	}
+  
+	.carousel-caption .title {
+	  border-radius: 100px 100px 0 100px;
+	  width: 240px;
+	  height: 30px;
+	  margin: 0 0 30px 0;
+	}
+  
+	.swiper-slide p {
+    width: 85%;
+	  font-size: 16px;
+	
+	}
+  
+	.carousel-caption .button a {
+	  font-family: 'Roboto', sans-serif;
+	  text-decoration: none;
+	  font-size: 15px;
+	  color: white;
+	  font-weight: 400;
+	  background-color: #0a62a8;
+	  border-radius: 2px;
+	  padding: 10px 12px;
+	}  
+
+  .carousel-caption .button {
+    margin-top: 14px;
+  }
+
+}
+
+
+@media (min-width: 390px) and  (max-width:400px){
+
+  .swiper {
+	  top: 79px;
+	  width: 100%;
+	  height: 90.2%;
+	}
+
+  .swiper-button-next  {
+    visibility: hidden;
+  }
+
+  .swiper-button-prev {
+    visibility: hidden;
+  }
+
+	.carousel-caption {
+    text-align: center;
+	  display: flex;
+    align-items: center;
+    flex-direction: column;
+	  width: 100%;
+	  margin-bottom: 220px;
+    left: 0;
+	}
+  
+	.carousel-caption label {
+	  margin: 0;
+	}
+  
+	.title label {
+	  font-family: 'Kanit', sans-serif;
+	  font-size: 14px;
+	}
+  
+	.carousel-caption h1 {
+	  font-family: 'Roboto', sans-serif;
+	  font-size: 21px;
+	}
+  
+	.carousel-caption .title {
+	  border-radius: 100px 100px 0 100px;
+	  width: 210px;
+	  height: 30px;
+	  margin: 0 0 30px 0;
+	}
+  
+	.swiper-slide p {
+    width: 87%;
+	  font-size: 17px;
+	
+	}
+  
+	.carousel-caption .button a {
+	  font-family: 'Roboto', sans-serif;
+	  text-decoration: none;
+	  font-size: 16px;
+	  color: white;
+	  font-weight: 400;
+	  background-color: #0a62a8;
+	  border-radius: 2px;
+	  padding: 10px 12px;
+	}  
+
+  .carousel-caption .button {
+    margin-top: 16px;
+  }
+
+
+}
+
+
+
+  
+
+@media (min-width: 414px) and  (max-width:428px){
+  .swiper {
+	  top: 80px;
+	  width: 100%;
+	  height: 90.8%;
+	}
+
+  .swiper-button-next  {
+    visibility: hidden;
+  }
+
+  .swiper-button-prev {
+    visibility: hidden;
+  }
+
+	.carousel-caption {
+	  text-align: center;
+	  display: flex;
+    align-items: center;
+    flex-direction: column;
+	  width: 100%;
+	  margin-bottom: 260px;
+    left: 0;;
+	}
+  
+	.carousel-caption label {
+	  margin: 0;
+	}
+  
+	.title label {
+	  font-family: 'Kanit', sans-serif;
+	  font-size: 20px;
+	}
+  
+	.carousel-caption h1 {
+	  font-family: 'Roboto', sans-serif;
+	  font-size: 24px;
+	}
+  
+	.carousel-caption .title {
+	  border-radius: 100px 100px 0 100px;
+	  width: 260px;
+	  height: 30px;
+	  margin: 0 0 30px 0;
+	}
+  
+	.swiper-slide p {
+    width: 88%;
+	  font-size: 19px;
+	
+	}
+  
+	.carousel-caption .button a {
+	  font-family: 'Roboto', sans-serif;
+  }
+
+  .carousel-caption .button {
+    margin-top: 17px;
+  }
+
+}
+
+@media (min-width: 428px) and  (max-width:438px){
+  .swiper {
+	  width: 100%;
+	  height: 91%;
+	}
+
+  .swiper-button-next  {
+    visibility: hidden;
+  }
+
+  .swiper-button-prev {
+    visibility: hidden;
+  }
+
+	.carousel-caption {
+	  text-align: center;
+	  display: flex;
+    align-items: center;
+    flex-direction: column;
+	  width: 100%;
+	  margin-bottom: 270px;
+    left: 0;;
+	}
+  
+	.carousel-caption label {
+	  margin: 0;
+	}
+  
+	.title label {
+	  font-family: 'Kanit', sans-serif;
+	  font-size: 20px;
+	}
+  
+	.carousel-caption h1 {
+	  font-family: 'Roboto', sans-serif;
+	  font-size: 24px;
+	}
+  
+	.carousel-caption .title {
+	  border-radius: 100px 100px 0 100px;
+	  width: 270px;
+	  height: 30px;
+	  margin: 0 0 30px 0;
+	}
+  
+	.swiper-slide p {
+    width: 89%;
+	  font-size: 19px;
+	
+	}
+  
+	.carousel-caption .button a {
+	  font-family: 'Roboto', sans-serif;
+  }
+
+.carousel-caption .button {
+  margin-top: 20px;
+}
+
+}
+
+
+@media only screen and (min-width: 768px) {
+
+  .swiper {
+    top: 78px;
+    width: 100%;
+    height: 92.1%;
+  }
+  
+  .carousel-caption {
+    width: 70%;
+    margin-bottom: 285px;
+  }
+
+  .title label {
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+  }
+
+  .carousel-caption h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 27px;
+  }
+
+  .carousel-caption .title {
+    border-radius: 100px 100px 0 100px;
+    width: 280px;
+    height: 30px;
+    margin: 0 0 30px 0;
+  }
+
+  .swiper-slide p {
+    font-size: 15px;
+  }
+
+  .button {
+    margin-top: 50px;
+  }
+
+  .carousel-caption .button a {
+    padding: 18px;
+    font-size: 14px;
+  }
+
+}
+
+@media only screen and (min-width: 800px) {
+  
+  .swiper {
+    width: 100%;
+    height: 93.8%;
+  }
+
+  .carousel-caption {
+    width: 77%;
+    margin-bottom: 340px;
+  }
+
+  .title label {
+    font-family: 'Kanit', sans-serif;
+    font-size: 26px;
+  }
+
+  .carousel-caption h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+  }
+
+  .carousel-caption .title {
+    border-radius: 100px 100px 0 100px;
+    width: 360px;
+    height: 38px;
+    margin: 0 0 30px 0;
+  }
+
+  .swiper-slide p {
+    font-size: 26px;
+  }
+
+}
+
+@media only screen and (min-width: 820px) {
+  .swiper {
+    width: 100%;
+    height: 93.1%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  
+  .swiper {
+    top: 122px;
+    width: 100%;
+    height: 74.7%;
+  }
+  
+  .carousel-caption {
+    width: 50%;
+    margin-bottom: 44px;
+  }
+
+  .title label {
+    font-family: 'Kanit', sans-serif;
+    font-size: 22px;
+  }
+
+  .carousel-caption h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+  }
+
+  .carousel-caption .title {
+    border-radius: 100px 100px 0 100px;
+    width: 300px;
+    height: 34px;
+    margin: 0 0 30px 0;
+  }
+
+  .swiper-slide p {
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+
+  .carousel-caption .button {
+    margin-top: 10px;
+  }
+
+  .carousel-caption .button a {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    background-color: #0a62a8;
+    border-radius: 2px;
+    padding: 9px 16px;
+  }    
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+
+  .swiper {
+    top: 122px;
+    width: 100%;
+    height: 78.5%;
+  }
+  
+  .carousel-caption {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+
+  .title label {
+    font-family: 'Kanit', sans-serif;
+    font-size: 22px;
+  }
+
+  .carousel-caption h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 42px;
+  }
+
+  .carousel-caption .title {
+    border-radius: 100px 100px 0 100px;
+    width: 360px;
+    height: 38px;
+    margin: 0 0 30px 0;
+  }
+
+  .swiper-slide p {
+    font-size: 18px;
+  }
+
+  .carousel-caption .button a {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    background-color: #0a62a8;
+    border-radius: 2px;
+    padding: 10px 16px;
+  }    
+
+}
+
+
+@media (min-width: 1400px) and (max-width: 1500px) {
+  
+  .swiper {
+    top: 105px;
+    width: 100%;
+    height: 81.5%;
+  }
+
+  .carousel-caption {
+    width: 50%;
+    margin-bottom: 57px;
+  }
+
+  .title label {
+    font-family: 'Kanit', sans-serif;
+    font-size: 22px;
+  }
+
+  .carousel-caption h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 42px;
+  }
+
+  .carousel-caption .title {
+    border-radius: 100px 100px 0 100px;
+    width: 360px;
+    height: 38px;
+    margin: 0 0 30px 0;
+  }
+
+  .swiper-slide p {
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+
+  .carousel-caption .button a {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    background-color: #0a62a8;
+    border-radius: 2px;
+    padding: 14px 22px;
+  }    
+
+}
+
+@media only screen and (min-width: 1900px) {
+  
+  .swiper {
+    top: 125px;
+    width: 100%;
+    height: 83.1%;
+  }
+
+  .carousel-caption {
+    width: 50%;
+    margin-bottom: 87px;
+  }
+
+  .title label {
+    font-family: 'Kanit', sans-serif;
+    font-size: 32px;
+  }
+
+  .carousel-caption h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 52px;
+  }
+
+  .carousel-caption p {
+    font-size: 24px;
+  }
+
+  .carousel-caption .title {
+    border-radius: 100px 100px 0 100px;
+    width: 430px;
+    height: 47px;
+    margin: 0 0 30px 0;
+  }
+
+  .carousel-caption .button {
+    margin-top: 60px;
+  }
+
+  .carousel-caption .button a {
+    padding: 16px 24px;
+    font-size: 22px;
+  }
+
+}
+
+@media only screen and (min-width: 1920px) {
+  
+  .swiper {
+    top: 125px;
+    width: 100%;
+    height: 84.4%;
+  }
+
+  .carousel-caption {
+    width: 50%;
+    margin-bottom: 87px;
+  }
+
+  .title label {
+    font-family: 'Kanit', sans-serif;
+    font-size: 32px;
+  }
+
+  .carousel-caption h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 52px;
+  }
+
+  .carousel-caption p {
+    font-size: 24px;
+  }
+
+  .carousel-caption .title {
+    border-radius: 100px 100px 0 100px;
+    width: 430px;
+    height: 47px;
+    margin: 0 0 30px 0;
+  }
+
+  .carousel-caption .button {
+    margin-top: 60px;
+  }
+
+  .carousel-caption .button a {
+    padding: 16px 24px;
+    font-size: 22px;
+  }
+
+}
+
+
+
+
+
+

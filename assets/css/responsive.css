@@ -1,0 +1,3890 @@
+@media only screen and (max-width: 320px) {
+
+    .navbar-brand img {
+        width: 105px;
+        height: 42px;
+        margin-left: 5px;
+        margin-top: -1px;
+    }
+
+    .nav1 .container {
+        position: relative;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .sosmednav {
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .contactnav {
+        height: 24px;
+    }
+    .sosmednav ul {
+        padding: 0;
+        font-size: 10px;
+    }
+
+    .contactnav ul {
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contactnav li {
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        font-size: 10px;
+    }
+
+    .contactnav i {
+        margin-right: 3px;
+        font-size: 9px;
+    }
+
+    /* about */
+
+    .img-about {
+        height: 220px;
+    }
+
+    .about1 {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        height: 700px;
+    }
+
+    .about1-main {
+        top: -630px;
+        margin-top: 0;
+        position:relative;
+    }
+
+    .about1 img {
+        visibility: hidden;
+    }
+
+    .imgab1 {
+        width: 190px;
+        height: 280px;
+    }
+
+    .imgab2 {
+        width: 190px;
+        height: 280px;
+        top: 196px;
+        left: 89px;
+    }
+
+    .ye12 {
+        text-align: center;
+        width: 78px;
+        height: 78px;
+        top: -155px;
+        left: 215px;
+    }
+    
+    .ye12 label {
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .ye12 p {
+        font-size: 9px;
+    }
+
+    .about-item {
+        width: 100%;
+    }
+
+    .about1-main {
+        margin-top: 500px;
+    }
+
+    .about-item h1 {
+        font-size: 23px;
+    }
+
+    .about-main p {
+        font-size: 18px;
+    }
+
+    .about-item li {
+        margin: 10px 0;
+        font-size: 12px;
+    }
+
+    .about .button a {
+        font-weight: 500;
+        border-radius: 2px;
+        padding: 10px 11px;
+        font-size: 12px;
+    }
+
+    .about2 {
+        height: 420px;
+    }
+
+    .about2-item {
+        width: 40%;
+        margin: 40px 4px;
+        
+    }
+
+    .about2-item img {
+        width: 100px;
+    }
+
+    .about2-item .for12y {
+        font-size: 9px;
+    }
+
+    .about2-item p {
+        font-size: 9px;
+    }
+
+    .about3 {
+        height: 390px;
+    }
+
+    .about3 img {
+        visibility: hidden;
+        width: 110px;
+        height: 150px;
+        top: 190px;
+        left: 208px;
+        padding: 4px 0 0 4px;
+        border-left: 4px solid white;
+        border-top: 4px solid white;
+    }
+
+    .about3-main {
+        width: 100%;
+        height: 395px;
+        top: 1px;
+    }
+
+    .about3-main-item {
+        margin: 5px 0;
+        width: 250px;
+    }
+    
+    .about3-main-item label {
+        font-size: 18px;
+        margin-bottom: 26px;
+    }
+
+    .about3-main-item p {
+        font-size: 12px;
+    }
+
+    .about4 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about4-item {
+        width: 100%;
+        height: 154px;
+    }
+    
+    .about4-item img {
+        
+        width: 320px;
+        height: 154px;
+    }
+    
+    .about4 h4 {
+        font-size: 14px;
+        margin: 32px 0 0 20px;
+    }
+    
+    .about4 a {
+
+        margin-left: 20px;
+        font-size: 12px;
+    }
+    
+    .about4 i {
+        margin: 0 8px;
+    }
+    
+    .about4-main {
+        margin-top: 50px;
+        padding-bottom: 32px;
+        width: 100%;
+        background: linear-gradient(rgba(224, 224, 224, 0), rgba(81, 88, 93, 1));
+    }
+
+    .title-about5 label {
+        font-size: 14px;
+    }
+
+    .about5-list-item h3 {
+        font-size: 20px;
+    }
+
+    .picture-about5 img {
+        width: 100px;
+        height: 140px;
+    }
+
+    .nameandjabatan h5 {
+        font-size: 14px;
+    }
+
+    .nameandjabatan label {
+        font-size: 12px;
+    }
+
+    .about6-item {
+        width: 100%;
+    }
+
+    .about6-item h1 {
+        font-size: 24px;
+    }
+
+    .buttonget {
+        margin: 60px 0 110px 0;
+    }
+    /* dokumentasi */
+
+
+    .doc1 {
+        width: 100%;
+        padding: 60px 0 10px;
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+
+    .doc1-item {
+        width: 100%;
+    }
+
+    .doc1-text {
+        margin: 20px 0 0 20px;
+    }
+
+    .main-text {
+        width: 100%;
+    }
+
+    .doc2 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .doc2-item {
+        width: 100%;
+        padding: 0;
+    }
+
+    .doc2-text {
+        margin: 0 0 0 20px;
+    }
+
+
+
+    .main-text {
+        width: 100%;
+    }
+
+    .slider .owl-item.active.center .slider-card {
+        filter: drop-shadow(0px 10px 9px rgba(0, 0, 0, 0.25));
+    }
+
+    /* pengalaman */
+
+    .title-experience {
+        margin: 135px 0 50px 0;
+    }
+
+    .title-experience h3 {
+        font-size: 16px;
+    }
+
+    .title-experience label {
+        font-size: 14px;
+    }
+
+
+    .table-responsive .row .dataTables_length {
+        display: flex;
+        justify-content: flex-start;
+        padding: 0;
+        
+    }
+
+    .table-responsive .row .dataTables_filter {
+        margin: 10px 0 0 -12px;
+        display: flex;
+        justify-content: flex-start;        
+    }
+
+    .dataTables_paginate .paging_simple_numbers {
+        left: 60px;
+    }
+
+    /* contact */
+    
+    .contact {
+        margin-top: 100px;
+    }
+
+    .contact .container {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .contact-item {
+        width: 100%;
+        font-size: 10px;
+        margin: 14px 0;
+    }
+
+    .alamat {
+        margin: 12px 0;
+}
+
+    .tocontact {
+        margin: 0;
+    }
+
+    /* footer */
+
+    .footer .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-item-menu {
+        margin: 20px 0;
+    }
+
+    .contact-list-item p {
+        font-size: 12px;
+    }
+
+    .sosmed-footer ul {
+        display: flex;
+        flex-direction: row;
+        box-sizing: border-box;
+        justify-content: flex-start;
+        margin-left: 1px;
+        padding: 0;
+    }
+    .sosmed-footer li {
+        margin: 0 5px;
+    }
+
+    .footer2 {
+        font-size: 9px;
+        
+    }
+
+    .footer2 p {
+        margin: 0;
+    }
+
+    .fa-map-location-dot {
+        margin-bottom: 12px;
+    }
+
+
+}
+
+@media (min-width: 360px) and (max-width: 375px) {
+
+    .navbar-brand img {
+        width: 120px;
+        height: 41px;
+        margin-left: 6px;
+        margin-top: -1px;
+    }
+
+    .nav1 .container {
+        position: relative;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .sosmednav {
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .contactnav {
+        height: 24px;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 5px;
+    }
+    .sosmednav ul {
+        padding: 0;
+        font-size: 10px;
+    }
+
+    .contactnav ul {
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contactnav li {
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        font-size: 10px;
+    }
+
+    .contactnav i {
+        margin-right: 3px;
+        font-size: 9px;
+    }
+
+    /* about */
+
+    .img-about {
+        height: 220px;
+    }
+
+    .about1 {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        height: 700px;
+    }
+
+    .about1-main {
+        top: -630px;
+        margin-top: 0;
+        position:relative;
+    }
+
+    .about1 img {
+        visibility: hidden;
+    }
+
+    .imgab1 {
+        width: 190px;
+        height: 280px;
+    }
+
+    .imgab2 {
+        width: 190px;
+        height: 280px;
+        top: 196px;
+        left: 89px;
+    }
+
+    .ye12 {
+        text-align: center;
+        width: 78px;
+        height: 78px;
+        top: -155px;
+        left: 255px;
+    }
+    
+    .ye12 label {
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .ye12 p {
+        font-size: 9px;
+        margin-left: 3px;
+    }
+
+    .about-item {
+        width: 100%;
+    }
+
+    .about1-main {
+        margin-top: 500px;
+    }
+
+    .about-item h1 {
+        font-size: 24px;
+    }
+
+    .about-main p {
+        font-size: 20px;
+    }
+
+    .about-item li {
+        margin: 10px 0;
+        font-size: 13px;
+    }
+
+    .about .button a {
+        font-weight: 500;
+        border-radius: 2px;
+        padding: 10px 11px;
+        font-size: 12px;
+    }
+
+    .about2 {
+        height: 435px;
+    }
+
+    .about2-item {
+        width: 40%;
+        margin: 40px 4px;
+        
+    }
+
+    .about2-item img {
+        width: 100px;
+    }
+
+    .about2-item .for12y {
+        font-size: 10px;
+    }
+
+    .about2-item p {
+        font-size: 10px;
+    }
+
+    .about3 {
+        height: 390px;
+    }
+
+    .about3 img {
+        visibility: hidden;
+        width: 110px;
+        height: 150px;
+        top: 190px;
+        left: 208px;
+        padding: 4px 0 0 4px;
+        border-left: 4px solid white;
+        border-top: 4px solid white;
+    }
+
+    .about3-main {
+        width: 100%;
+        height: 395px;
+        top: 1px;
+    }
+
+    .about3-main-item {
+        margin: 5px 0;
+        width: 250px;
+    }
+    
+    .about3-main-item label {
+        font-size: 20px;
+        margin-bottom: 26px;
+    }
+
+    .about3-main-item p {
+        font-size: 14px;
+    }
+
+    .about4 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about4-item {
+        width: 100%;
+        height: 154px;
+    }
+    
+    .about4-item img {
+        
+        width: 360px;
+        height: 154px;
+    }
+    
+    .about4 h4 {
+        font-size: 14px;
+        margin: 32px 0 0 20px;
+    }
+    
+    .about4 a {
+
+        margin-left: 20px;
+        font-size: 12px;
+    }
+    
+    .about4 i {
+        margin: 0 8px;
+    }
+    
+    .about4-main {
+        margin-top: 57px;
+        padding-bottom: 32px;
+        width: 100%;
+        background: linear-gradient(rgba(224, 224, 224, 0), rgba(81, 88, 93, 1));
+    }
+
+    .title-about5 label {
+        font-size: 14px;
+    }
+
+    .about5-list-item h3 {
+        font-size: 20px;
+    }
+
+    .picture-about5 img {
+        width: 100px;
+        height: 137px;
+    }
+
+    .nameandjabatan h5 {
+        font-size: 14px;
+    }
+
+    .nameandjabatan label {
+        font-size: 12px;
+    }
+
+    .about6-item {
+        width: 100%;
+    }
+
+    .about6-item h1 {
+        font-size: 24px;
+    }
+
+    .buttonget {
+        margin: 60px 0 110px 0;
+    }
+
+
+    /* dokumentasi */
+
+    .doc1 {
+        width: 100%;
+        padding: 80px 0 10px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .doc1-item {
+        width: 100%;
+    }
+
+    .doc1-text {
+        margin: 20px 0 0 20px;
+    }
+
+    .main-text {
+        width: 100%;
+    }
+
+    .doc2 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .doc2-item {
+        width: 100%;
+        padding: 0;
+    }
+
+    .doc2-text {
+        margin: 0 0 0 20px;
+    }
+
+
+
+    .main-text {
+        width: 98%;
+    }
+
+    .slider .owl-item.active.center .slider-card {
+        filter: drop-shadow(0px 10px 9px rgba(0, 0, 0, 0.25));
+    }
+
+    /* pengalaman */
+
+    .title-experience {
+        margin: 130px 0 50px 0;
+    }
+
+    .title-experience h3 {
+        font-size: 16px;
+    }
+
+    .title-experience label {
+        font-size: 14px;
+    }
+
+
+    .table-responsive .row .dataTables_length {
+        display: flex;
+        justify-content: flex-start;
+        padding: 0;
+        
+    }
+
+    .table-responsive .row .dataTables_filter {
+        margin: 10px 0 0 -12px;
+        display: flex;
+        justify-content: flex-start;        
+    }
+
+    .dataTables_paginate .paging_simple_numbers {
+        left: 60px;
+    }
+
+    .contact {
+        margin-top: 100px;
+    }
+
+    .contact .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .contact-item {
+        width: 100%;
+        font-size: 14px;
+        margin: 14px 0;
+    }
+
+    .alamat label {
+        font-size: 20px;
+    }
+
+    .tocontactlabel {
+        font-size: 20px;
+    }
+
+    .alamat {
+        margin: 12px 0;
+    }
+
+    .tocontact {
+        margin: 0;
+    }
+
+    /* footer */
+
+    .footer .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-item-menu {
+        margin: 20px 0;
+    }
+
+    .contact-list-item p {
+        font-size: 12px;
+    }
+
+    .sosmed-footer ul {
+        display: flex;
+        flex-direction: row;
+        box-sizing: border-box;
+        justify-content: flex-start;
+        margin-left: 1px;
+        padding: 0;
+    }
+    .sosmed-footer li {
+        margin: 0 5px;
+    }
+
+    .footer2 {
+        font-size: 10px;
+        
+    }
+
+    .footer2 p {
+        margin: 0;
+    }
+
+    .fa-map-location-dot {
+        margin-bottom: 12px;
+    }
+
+
+}
+
+@media (min-width: 375px) and (max-width:376px){
+
+ /* navbar */
+ .navbar-brand img {
+    width: 120px;
+    height: 42px;
+    margin-left: 6px;
+    margin-top: -1px;
+}
+
+.nav1 .container {
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.sosmednav {
+    visibility: hidden;
+    position: absolute;
+}
+
+.contactnav {
+    height: 24px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+}
+.sosmednav ul {
+    padding: 0;
+    font-size: 10px;
+}
+
+.contactnav ul {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.contactnav li {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+}
+
+.contactnav i {
+    margin-right: 3px;
+    font-size: 9px;
+}
+
+/* about */
+
+.img-about {
+    height: 220px;
+}
+
+.about1 {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 700px;
+}
+
+.about1-main {
+    top: -630px;
+    margin-top: 0;
+    position:relative;
+}
+
+.about1 img {
+    visibility: hidden;
+}
+
+.imgab1 {
+    width: 190px;
+    height: 280px;
+}
+
+.imgab2 {
+    width: 190px;
+    height: 280px;
+    top: 196px;
+    left: 89px;
+}
+
+.ye12 {
+    text-align: center;
+    width: 78px;
+    height: 78px;
+    top: -155px;
+    left: 275px;
+}
+
+.ye12 label {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.ye12 p {
+    font-size: 9px;
+    margin-left: 3px;
+}
+
+.about-item {
+    width: 100%;
+}
+
+.about1-main {
+    margin-top: 500px;
+}
+
+.about-item h1 {
+    font-size: 24px;
+}
+
+.about-main p {
+    font-size: 20px;
+}
+
+.about-item li {
+    margin: 10px 0;
+    font-size: 13px;
+}
+
+.about .button a {
+    font-weight: 500;
+    border-radius: 2px;
+    padding: 10px 11px;
+    font-size: 12px;
+}
+
+.about2 {
+    height: 435px;
+}
+
+.about2-item {
+    width: 40%;
+    margin: 40px 4px;
+    
+}
+
+.about2-item img {
+    width: 100px;
+}
+
+.about2-item .for12y {
+    font-size: 10px;
+}
+
+.about2-item p {
+    font-size: 10px;
+}
+
+.about3 {
+    height: 390px;
+}
+
+.about3 img {
+    visibility: hidden;
+    width: 110px;
+    height: 150px;
+    top: 190px;
+    left: 208px;
+    padding: 4px 0 0 4px;
+    border-left: 4px solid white;
+    border-top: 4px solid white;
+}
+
+.about3-main {
+    width: 100%;
+    height: 395px;
+    top: 1px;
+}
+
+.about3-main-item {
+    margin: 5px 0;
+    width: 250px;
+}
+
+.about3-main-item label {
+    font-size: 20px;
+    margin-bottom: 26px;
+}
+
+.about3-main-item p {
+    font-size: 14px;
+}
+
+.about4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.about4-item {
+    width: 100%;
+    height: 154px;
+}
+
+.about4-item img {
+    
+    width: 376px;
+    height: 154px;
+}
+
+.about4 h4 {
+    font-size: 14px;
+    margin: 32px 0 0 20px;
+}
+
+.about4 a {
+
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.about4 i {
+    margin: 0 8px;
+}
+
+.about4-main {
+    margin-top: 57px;
+    padding-bottom: 32px;
+    width: 100%;
+    background: linear-gradient(rgba(224, 224, 224, 0), rgba(81, 88, 93, 1));
+}
+
+.title-about5 label {
+    font-size: 14px;
+}
+
+.about5-list-item h3 {
+    font-size: 20px;
+}
+
+.picture-about5 img {
+    width: 100px;
+    height: 137px;
+}
+
+.nameandjabatan h5 {
+    font-size: 14px;
+}
+
+.nameandjabatan label {
+    font-size: 12px;
+}
+
+.about6-item {
+    width: 100%;
+}
+
+.about6-item h1 {
+    font-size: 24px;
+}
+
+.buttonget {
+    margin: 60px 0 110px 0;
+}
+
+    /* dokumentasi */
+
+    .doc1 {
+        width: 100%;
+        padding: 90px 0 10px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .doc1-item {
+        width: 100%;
+    }
+
+    .doc1-text {
+        margin: 20px 0 0 20px;
+    }
+
+    .main-text {
+        width: 100%;
+    }
+
+    .doc2 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .doc2-item {
+        width: 100%;
+        padding: 0;
+    }
+
+    .doc2-text {
+        margin: 0 0 0 20px;
+    }
+
+
+
+    .main-text {
+        width: 98%;
+    }
+
+    .slider .owl-item.active.center .slider-card {
+        filter: drop-shadow(0px 10px 9px rgba(0, 0, 0, 0.25));
+    }
+
+    /* pengalaman */
+
+    .title-experience {
+        margin: 130px 0 50px 0;
+    }
+
+    .title-experience h3 {
+        font-size: 18px;
+    }
+
+    .title-experience label {
+        font-size: 16px;
+    }
+
+
+    .table-responsive .row .dataTables_length {
+        display: flex;
+        justify-content: flex-start;
+        padding: 0;
+        
+    }
+
+    .table-responsive .row .dataTables_filter {
+        margin: 10px 0 0 -12px;
+        display: flex;
+        justify-content: flex-start;        
+    }
+
+    .dataTables_paginate .paging_simple_numbers {
+        left: 60px;
+    }
+
+    .contact {
+        margin-top: 110px;
+    }
+
+    .contact .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .contact-item {
+        width: 100%;
+        font-size: 14px;
+        margin: 14px 0;
+    }
+
+    .alamat label {
+        font-size: 20px;
+    }
+
+    .tocontactlabel {
+        font-size: 20px;
+    }
+
+    .alamat {
+        margin: 12px 0;
+    }
+
+    .tocontact {
+        margin: 0;
+    }
+
+    /* footer */
+
+    .footer .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-item-menu {
+        margin: 20px 0;
+    }
+
+    .contact-list-item p {
+        font-size: 12px;
+    }
+
+    .sosmed-footer ul {
+        display: flex;
+        flex-direction: row;
+        box-sizing: border-box;
+        justify-content: flex-start;
+        margin-left: 1px;
+        padding: 0;
+    }
+    .sosmed-footer li {
+        margin: 0 5px;
+    }
+
+    .footer2 {
+        font-size: 10px;
+        
+    }
+
+    .footer2 p {
+        margin: 0;
+    }
+
+    .fa-map-location-dot {
+        margin-bottom: 12px;
+    }
+
+
+}
+
+@media (min-width: 390px) and (max-width: 400px) {
+
+    .navbar-brand img {
+        width: 120px;
+        height: 43px;
+        margin-left: 6px;
+        margin-top: -1px;
+    }
+
+    .nav1 .container {
+        position: relative;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .sosmednav {
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .contactnav {
+        height: 24px;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 5px;
+    }
+    .sosmednav ul {
+        padding: 0;
+        font-size: 10px;
+    }
+
+    .contactnav ul {
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contactnav li {
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        font-size: 10px;
+    }
+
+    .contactnav i {
+        margin-right: 3px;
+        font-size: 9px;
+    }
+
+    /* about */
+
+    .img-about {
+        height: 220px;
+    }
+
+    .about1 {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        height: 700px;
+    }
+
+    .about1-main {
+        top: -630px;
+        margin-top: 0;
+        position:relative;
+    }
+
+    .about1 img {
+        visibility: hidden;
+    }
+
+    .imgab1 {
+        width: 190px;
+        height: 280px;
+    }
+
+    .imgab2 {
+        width: 190px;
+        height: 280px;
+        top: 196px;
+        left: 89px;
+    }
+
+    .ye12 {
+        text-align: center;
+        width: 78px;
+        height: 78px;
+        top: -155px;
+        left: 285px;
+    }
+    
+    .ye12 label {
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .ye12 p {
+        font-size: 9px;
+        margin-left: 3px;
+    }
+
+    .about-item {
+        width: 100%;
+    }
+
+    .about1-main {
+        margin-top: 500px;
+    }
+
+    .about-item h1 {
+        font-size: 24px;
+    }
+
+    .about-main p {
+        font-size: 20px;
+    }
+
+    .about-item li {
+        margin: 10px 0;
+        font-size: 13px;
+    }
+
+    .about .button a {
+        font-weight: 500;
+        border-radius: 2px;
+        padding: 10px 11px;
+        font-size: 12px;
+    }
+
+    .about2 {
+        height: 435px;
+    }
+
+    .about2-item {
+        width: 40%;
+        margin: 40px 4px;
+        
+    }
+
+    .about2-item img {
+        width: 100px;
+    }
+
+    .about2-item .for12y {
+        font-size: 10px;
+    }
+
+    .about2-item p {
+        font-size: 10px;
+    }
+
+    .about3 {
+        height: 390px;
+    }
+
+    .about3 img {
+        visibility: hidden;
+        width: 110px;
+        height: 150px;
+        top: 190px;
+        left: 208px;
+        padding: 4px 0 0 4px;
+        border-left: 4px solid white;
+        border-top: 4px solid white;
+    }
+
+    .about3-main {
+        width: 100%;
+        height: 395px;
+        top: 1px;
+    }
+
+    .about3-main-item {
+        margin: 5px 0;
+        width: 250px;
+    }
+    
+    .about3-main-item label {
+        font-size: 20px;
+        margin-bottom: 26px;
+    }
+
+    .about3-main-item p {
+        font-size: 14px;
+    }
+
+    .about4 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about4-item {
+        width: 100%;
+        height: 154px;
+    }
+    
+    .about4-item img {
+        width: 100%;
+        height: 154px;
+    }
+    
+    .about4 h4 {
+        font-size: 14px;
+        margin: 32px 0 0 20px;
+    }
+    
+    .about4 a {
+
+        margin-left: 20px;
+        font-size: 12px;
+    }
+    
+    .about4 i {
+        margin: 0 8px;
+    }
+    
+    .about4-main {
+        margin-top: 57px;
+        padding-bottom: 32px;
+        width: 100%;
+        background: linear-gradient(rgba(224, 224, 224, 0), rgba(81, 88, 93, 1));
+    }
+
+    .title-about5 label {
+        font-size: 14px;
+    }
+
+    .about5-list-item h3 {
+        font-size: 20px;
+    }
+
+    .picture-about5 img {
+        width: 100px;
+        height: 137px;
+    }
+
+    .nameandjabatan h5 {
+        font-size: 14px;
+    }
+
+    .nameandjabatan label {
+        font-size: 12px;
+    }
+
+    .about6-item {
+        width: 100%;
+    }
+
+    .about6-item h1 {
+        font-size: 24px;
+    }
+
+    .buttonget {
+        margin: 60px 0 110px 0;
+    }
+    
+        /* dokumentasi */
+    
+        .doc1 {
+            width: 100%;
+            padding: 80px 0 10px;
+            display: flex;
+            flex-direction: column-reverse;
+        }
+    
+        .doc1-item {
+            width: 100%;
+        }
+    
+        .doc1-text {
+            margin: 20px 0 0 20px;
+        }
+    
+        .main-text {
+            width: 100%;
+        }
+    
+        .doc2 {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+    
+        .doc2-item {
+            width: 100%;
+            padding: 0;
+        }
+    
+        .doc2-text {
+            margin: 0 0 0 20px;
+        }
+    
+    
+    
+        .main-text {
+            width: 98%;
+        }
+    
+        .slider .owl-item.active.center .slider-card {
+            filter: drop-shadow(0px 10px 9px rgba(0, 0, 0, 0.25));
+        }
+    
+        /* pengalaman */
+    
+        .title-experience {
+            margin: 130px 0 50px 0;
+        }
+    
+        .title-experience h3 {
+            font-size: 18px;
+        }
+    
+        .title-experience label {
+            font-size: 16px;
+        }
+    
+    
+        .table-responsive .row .dataTables_length {
+            display: flex;
+            justify-content: flex-start;
+            padding: 0;
+            
+        }
+    
+        .table-responsive .row .dataTables_filter {
+            margin: 10px 0 0 -12px;
+            display: flex;
+            justify-content: flex-start;        
+        }
+    
+        .dataTables_paginate .paging_simple_numbers {
+            left: 60px;
+        }
+    
+        .contact .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+
+        .contact {
+            margin-top: 110px;
+        }
+    
+        .contact-item {
+            width: 100%;
+            font-size: 14px;
+            margin: 14px 0;
+        }
+    
+        .alamat label {
+            font-size: 20px;
+        }
+    
+        .tocontactlabel {
+            font-size: 20px;
+        }
+    
+        .alamat {
+            margin: 12px 0;
+        }
+    
+        .tocontact {
+            margin: 0;
+        }
+    
+        /* footer */
+    
+        .footer .container {
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .footer-item-menu {
+            margin: 20px 0;
+        }
+    
+        .contact-list-item p {
+            font-size: 12px;
+        }
+    
+        .sosmed-footer ul {
+            display: flex;
+            flex-direction: row;
+            box-sizing: border-box;
+            justify-content: flex-start;
+            margin-left: 1px;
+            padding: 0;
+        }
+        .sosmed-footer li {
+            margin: 0 5px;
+     }
+ 
+     .footer2 {
+         font-size: 10px;
+     }
+ 
+     .footer2 p {
+         margin: 0;
+     }
+ 
+     .fa-map-location-dot {
+         margin-bottom: 12px;
+     }
+
+}
+
+
+
+@media (min-width: 414px) and (max-width: 428px) {
+
+    .navbar-brand img {
+        width: 120px;
+        height: 43px;
+        margin-left: 6px;
+        margin-top: -1px;
+    }
+    
+    .nav1 .container {
+        position: relative;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .sosmednav {
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .contactnav {
+        height: 24px;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 5px;
+    }
+    .sosmednav ul {
+        padding: 0;
+        font-size: 10px;
+    }
+
+    .contactnav ul {
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contactnav li {
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        font-size: 10px;
+    }
+
+    .contactnav i {
+        margin-right: 3px;
+        font-size: 9px;
+    }
+
+    /* about */
+
+    .img-about {
+        height: 220px;
+    }
+
+    .about1 {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        height: 700px;
+    }
+
+    .about1-main {
+        top: -630px;
+        margin-top: 0;
+        position:relative;
+    }
+
+    .about1 img {
+        visibility: hidden;
+    }
+
+    .imgab1 {
+        width: 190px;
+        height: 280px;
+    }
+
+    .imgab2 {
+        width: 190px;
+        height: 280px;
+        top: 196px;
+        left: 89px;
+    }
+
+    .ye12 {
+        text-align: center;
+        width: 78px;
+        height: 78px;
+        top: -155px;
+        left: 307px;
+    }
+    
+    .ye12 label {
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .ye12 p {
+        font-size: 9px;
+        margin-left: 3px;
+    }
+
+    .about-item {
+        width: 100%;
+    }
+
+    .about1-main {
+        margin-top: 500px;
+    }
+
+    .about-item h1 {
+        font-size: 24px;
+    }
+
+    .about-main p {
+        font-size: 20px;
+    }
+
+    .about-item li {
+        margin: 10px 0;
+        font-size: 13px;
+    }
+
+    .about .button a {
+        font-weight: 500;
+        border-radius: 2px;
+        padding: 10px 11px;
+        font-size: 12px;
+    }
+
+    .about2 {
+        height: 435px;
+    }
+
+    .about2-item {
+        width: 40%;
+        margin: 40px 4px;
+        
+    }
+
+    .about2-item img {
+        width: 100px;
+    }
+
+    .about2-item .for12y {
+        font-size: 10px;
+    }
+
+    .about2-item p {
+        font-size: 10px;
+    }
+
+    .about3 {
+        height: 390px;
+    }
+
+    .about3 img {
+        visibility: hidden;
+        width: 110px;
+        height: 150px;
+        top: 190px;
+        left: 208px;
+        padding: 4px 0 0 4px;
+        border-left: 4px solid white;
+        border-top: 4px solid white;
+    }
+
+    .about3-main {
+        width: 100%;
+        height: 395px;
+        top: 1px;
+    }
+
+    .about3-main-item {
+        margin: 5px 0;
+        width: 250px;
+    }
+    
+    .about3-main-item label {
+        font-size: 20px;
+        margin-bottom: 26px;
+    }
+
+    .about3-main-item p {
+        font-size: 14px;
+    }
+
+    .about4 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about4-item {
+        width: 100%;
+        height: 154px;
+    }
+    
+    .about4-item img {
+        
+        width: 414px;
+        height: 154px;
+    }
+    
+    .about4 h4 {
+        font-size: 14px;
+        margin: 32px 0 0 20px;
+    }
+    
+    .about4 a {
+
+        margin-left: 20px;
+        font-size: 12px;
+    }
+    
+    .about4 i {
+        margin: 0 8px;
+    }
+    
+    .about4-main {
+        margin-top: 57px;
+        padding-bottom: 32px;
+        width: 100%;
+        background: linear-gradient(rgba(224, 224, 224, 0), rgba(81, 88, 93, 1));
+    }
+
+    .title-about5 label {
+        font-size: 14px;
+    }
+
+    .about5-list-item h3 {
+        font-size: 20px;
+    }
+
+    .picture-about5 img {
+        width: 100px;
+        height: 137px;
+    }
+
+    .nameandjabatan h5 {
+        font-size: 14px;
+    }
+
+    .nameandjabatan label {
+        font-size: 12px;
+    }
+
+    .about6-item {
+        width: 100%;
+    }
+
+    .about6-item h1 {
+        font-size: 24px;
+    }
+
+    .buttonget {
+        margin: 60px 0 110px 0;
+    }
+
+    /* dokumentasi */
+
+    .doc1 {
+        width: 100%;
+        padding: 85px 0 10px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .doc1-item {
+        width: 100%;
+    }
+
+    .doc1-text {
+        margin: 20px 0 0 20px;
+    }
+
+    .main-text {
+        width: 100%;
+    }
+
+    .doc2 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .doc2-item {
+        width: 100%;
+        padding: 0;
+    }
+
+    .doc2-text {
+        margin: 0 0 0 20px;
+    }
+
+
+
+    .main-text {
+        width: 98%;
+    }
+
+    .slider .owl-item.active.center .slider-card {
+        filter: drop-shadow(0px 10px 9px rgba(0, 0, 0, 0.25));
+    }
+
+    /* pengalaman */
+
+    .title-experience {
+        margin: 134px 0 50px 0;
+    }
+
+    .title-experience h3 {
+        font-size: 18px;
+    }
+
+    .title-experience label {
+        font-size: 16px;
+    }
+
+
+    .table-responsive .row .dataTables_length {
+        display: flex;
+        justify-content: flex-start;
+        padding: 0;
+        
+    }
+
+    .table-responsive .row .dataTables_filter {
+        margin: 10px 0 0 -12px;
+        display: flex;
+        justify-content: flex-start;        
+    }
+
+    .dataTables_paginate .paging_simple_numbers {
+        left: 60px;
+    }
+
+    
+    .contact {
+        margin-top: 110px;
+    }
+
+    .contact .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .contact-item {
+        width: 100%;
+        font-size: 14px;
+        margin: 14px 0;
+    }
+
+    .alamat label {
+        font-size: 20px;
+    }
+
+    .tocontact label {
+        font-size: 20px;
+    }
+
+    .alamat {
+        margin: 12px 0;
+    }
+
+    .table {
+        font-size: 16px;
+    }
+
+    .tocontact {
+        margin: 0;
+    }
+
+    /* footer */
+
+    .footer .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-item-menu {
+        margin: 20px 0;
+    }
+
+    .contact-list-item p {
+        font-size: 12px;
+    }
+
+    .sosmed-footer ul {
+        display: flex;
+        flex-direction: row;
+        box-sizing: border-box;
+        justify-content: flex-start;
+        margin-left: 1px;
+        padding: 0;
+    }
+    .sosmed-footer li {
+        margin: 0 5px;
+    }
+
+    .footer2 {
+        font-size: 11px;
+        
+    }
+
+    .footer2 p {
+        margin: 0;
+    }
+
+    .fa-map-location-dot {
+        margin-bottom: 12px;
+    }
+
+
+}
+
+@media (min-width: 428px) and (max-width: 440px) {
+
+    .navbar-brand img {
+        width: 120px;
+        height: 43px;
+        margin-left: 6px;
+        margin-top: -1px;
+    }
+    
+    .nav1 .container {
+        position: relative;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .sosmednav {
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .contactnav {
+        height: 24px;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 5px;
+    }
+    .sosmednav ul {
+        padding: 0;
+        font-size: 10px;
+    }
+
+    .contactnav ul {
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contactnav li {
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        font-size: 10px;
+    }
+
+    .contactnav i {
+        margin-right: 3px;
+        font-size: 9px;
+    }
+
+    /* about */
+
+    .img-about {
+        height: 220px;
+    }
+
+    .about1 {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        height: 700px;
+    }
+
+    .about1-main {
+        top: -630px;
+        margin-top: 0;
+        position:relative;
+    }
+
+    .about1 img {
+        visibility: hidden;
+    }
+
+    .imgab1 {
+        width: 190px;
+        height: 280px;
+    }
+
+    .imgab2 {
+        width: 190px;
+        height: 280px;
+        top: 196px;
+        left: 89px;
+    }
+
+    .ye12 {
+        text-align: center;
+        width: 78px;
+        height: 78px;
+        top: -155px;
+        left: 326px;
+    }
+    
+    .ye12 label {
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .ye12 p {
+        font-size: 9px;
+        margin-left: 3px;
+    }
+
+    .about-item {
+        width: 100%;
+    }
+
+    .about1-main {
+        margin-top: 500px;
+    }
+
+    .about-item h1 {
+        font-size: 24px;
+    }
+
+    .about-main p {
+        font-size: 20px;
+    }
+
+    .about-item li {
+        margin: 10px 0;
+        font-size: 13px;
+    }
+
+    .about .button a {
+        font-weight: 500;
+        border-radius: 2px;
+        padding: 10px 11px;
+        font-size: 12px;
+    }
+
+    .about2 {
+        height: 435px;
+    }
+
+    .about2-item {
+        width: 40%;
+        margin: 40px 4px;
+        
+    }
+
+    .about2-item img {
+        width: 100px;
+    }
+
+    .about2-item .for12y {
+        font-size: 10px;
+    }
+
+    .about2-item p {
+        font-size: 10px;
+    }
+
+    .about3 {
+        height: 390px;
+    }
+
+    .about3 img {
+        visibility: hidden;
+        width: 110px;
+        height: 150px;
+        top: 190px;
+        left: 208px;
+        padding: 4px 0 0 4px;
+        border-left: 4px solid white;
+        border-top: 4px solid white;
+    }
+
+    .about3-main {
+        width: 100%;
+        height: 395px;
+        top: 1px;
+    }
+
+    .about3-main-item {
+        margin: 5px 0;
+        width: 250px;
+    }
+    
+    .about3-main-item label {
+        font-size: 20px;
+        margin-bottom: 26px;
+    }
+
+    .about3-main-item p {
+        font-size: 14px;
+    }
+
+    .about4 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about4-item {
+        width: 100%;
+        height: 154px;
+    }
+    
+    .about4-item img {
+        
+        width: 428px;
+        height: 154px;
+    }
+    
+    .about4 h4 {
+        font-size: 14px;
+        margin: 32px 0 0 20px;
+    }
+    
+    .about4 a {
+
+        margin-left: 20px;
+        font-size: 12px;
+    }
+    
+    .about4 i {
+        margin: 0 8px;
+    }
+    
+    .about4-main {
+        margin-top: 57px;
+        padding-bottom: 32px;
+        width: 100%;
+        background: linear-gradient(rgba(224, 224, 224, 0), rgba(81, 88, 93, 1));
+    }
+
+    .title-about5 label {
+        font-size: 14px;
+    }
+
+    .about5-list-item h3 {
+        font-size: 20px;
+    }
+
+    .picture-about5 img {
+        width: 100px;
+        height: 137px;
+    }
+
+    .nameandjabatan h5 {
+        font-size: 14px;
+    }
+
+    .nameandjabatan label {
+        font-size: 12px;
+    }
+
+    .about6-item {
+        width: 100%;
+    }
+
+    .about6-item h1 {
+        font-size: 24px;
+    }
+
+    .buttonget {
+        margin: 60px 0 110px 0;
+    }
+
+    /* dokumentasi */
+
+    .doc1 {
+        width: 100%;
+        padding: 80px 0 10px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .doc1-item {
+        width: 100%;
+    }
+
+    .doc1-text {
+        margin: 20px 0 0 20px;
+    }
+
+    .main-text {
+        width: 100%;
+    }
+
+    .doc2 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .doc2-item {
+        width: 100%;
+        padding: 0;
+    }
+
+    .doc2-text {
+        margin: 0 0 0 20px;
+    }
+
+
+
+    .main-text {
+        width: 98%;
+    }
+
+    .slider .owl-item.active.center .slider-card {
+        filter: drop-shadow(0px 10px 9px rgba(0, 0, 0, 0.25));
+    }
+
+    /* pengalaman */
+
+    .title-experience {
+        margin: 130px 0 50px 0;
+    }
+
+    .title-experience h3 {
+        font-size: 20px;
+    }
+
+    .title-experience label {
+        font-size: 18px;
+    }
+
+
+    .table-responsive .row .dataTables_length {
+        display: flex;
+        justify-content: flex-start;
+        padding: 0;
+        
+    }
+
+    .table-responsive .row .dataTables_filter {
+        margin: 10px 0 0 -12px;
+        display: flex;
+        justify-content: flex-start;        
+    }
+
+    .dataTables_paginate .paging_simple_numbers {
+        left: 60px;
+    }
+
+    .contact .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .contact-item {
+        width: 100%;
+        font-size: 14px;
+        margin: 14px 0;
+    }
+
+    .alamat label {
+        font-size: 20px;
+    }
+
+    .tocontact label {
+        font-size: 20px;
+    }
+
+    .alamat {
+        margin: 12px 0;
+    }
+
+    .table {
+        font-size: 16px;
+    }
+
+    .tocontact {
+        margin: 0;
+    }
+
+    /* footer */
+
+    .footer .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-item-menu {
+        margin: 20px 0;
+    }
+
+    .contact-list-item p {
+        font-size: 12px;
+    }
+
+    .sosmed-footer ul {
+        display: flex;
+        flex-direction: row;
+        box-sizing: border-box;
+        justify-content: flex-start;
+        margin-left: 1px;
+        padding: 0;
+    }
+    .sosmed-footer li {
+        margin: 0 5px;
+    }
+
+    .footer2 {
+        font-size: 11px;
+        
+    }
+
+    .footer2 p {
+        margin: 0;
+    }
+
+    .fa-map-location-dot {
+        margin-bottom: 12px;
+    }
+
+
+}
+
+@media only screen and (min-width: 768px) {
+
+    .nav1 .container {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .sosmednav {
+        margin: 5px 0;
+    }
+
+    .sosmednav ul {
+        padding: 0;
+    }
+
+    .contactnav ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .about1 {
+        display: flex;
+        flex-direction: row;
+        box-sizing: border-box;
+
+    }
+
+    .imgab1 {
+        width: 220px;
+        height: 330px;
+        left: 5px;
+    }
+
+    .imgab2 {
+        width: 220px;
+        height: 330px;
+        top: 196px;
+        left: 90px;
+    }
+
+    .ye12 {
+        width: 178px;
+        height: 178px;
+        top: 175px;
+        left: 35px;
+    }
+
+    .ye12 label {
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .ye12 p {
+        font-size: 9px;
+    }
+
+    .about-item {
+        width: 100%;
+    }
+
+    .about1-main {
+        margin-top: 88px;
+    }
+
+    .about-item h1 {
+        font-size: 29px;
+    }
+
+    .about-main p {
+        font-size: 20px;
+    }
+
+    .about-item li {
+        font-size: 14px;
+        margin: 5px 0;
+    }
+
+    .about .button a {
+        font-weight: 500;
+        border-radius: 2px;
+        padding: 10px 11px;
+        font-size: 12px;
+    }
+
+    .about2 {
+        height: 380px;
+    }
+
+    .about2-item {
+        width: 40%;
+        margin: 40px 4px;
+        
+    }
+
+    .about2-item img {
+        width: 180px;
+    }
+
+    .about2-item .for12y {
+        font-size: 14px;
+    }
+
+    .about2-item p {
+        font-size: 14px;
+    }
+
+    .about3 {
+        height: 490px;
+    }
+
+    .about3 img {
+        width: 160px;
+        height: 190px;
+        top: 170px;
+        left: 606px;
+        padding: 4px 0 0 4px;
+        border-left: 4px solid white;
+        border-top: 4px solid white;
+    }
+
+    .about3-main {
+        width: 660px;
+        height: 230px;
+        top: 50px;
+    }
+
+    .about3-main-item {
+        margin: 2px 0;
+        width: 400px;
+    }
+
+    .about3-main-item label {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .about3-main-item p {
+        font-size: 12px;
+    }
+
+    .about4 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .about4-item {
+        width: 34%;
+        height: 170px;
+    }
+
+    .about4-item img {
+        width: 100%;
+        height: 195px;
+    }
+
+    .about4 h4 {
+        font-size: 15px;
+        margin: 32px 0 0 20px;
+    }
+
+    .about4 a {
+
+        margin-left: 20px;
+        font-size: 14px;
+    }
+
+    .about4 i {
+        margin: 0 8px;
+    }
+
+    .about4-main {
+        margin-top: 98px;
+        padding-bottom: 26px;
+        width: 100%;
+        background: linear-gradient(rgba(224, 224, 224, 0), rgba(81, 88, 93, 1));
+    }
+
+    .title-about5 label {
+        font-size: 14px;
+    }
+
+    .about5-list-item h3 {
+        font-size: 20px;
+    }
+
+    .picture-about5 img {
+        width: 130px;
+        height: 170px;
+    }
+
+    .nameandjabatan h5 {
+        font-size: 14px;
+    }
+
+    .nameandjabatan label {
+        font-size: 12px;
+    }
+
+    .about6-item {
+        width: 60%;
+    }
+
+    .about6-item h1 {
+        font-size: 24px;
+    }
+
+    /* dokumentasi */
+
+    .doc1 {
+        display: flex;
+        flex-direction: row;
+        box-sizing: border-box;
+    }
+
+    .doc1-item {
+        width: 50%;
+    }
+
+    .doc1-text {
+        margin: 20px 0 0 20px;
+    }
+
+    .main-text {
+        width: 100%;
+    }
+
+    .doc2 {
+        display: flex;
+        flex-direction: row-reverse;
+        box-sizing: border-box;
+    }
+
+    .doc2-item {
+        width: 50%;
+    }
+
+    .doc2-text {
+        margin: 0 0 0 14px;
+    }
+
+
+
+    .main-text {
+        font-size: 16px;
+    }
+
+    .slider .owl-item.active.center .slider-card {
+        filter: drop-shadow(0px 10px 9px rgba(0, 0, 0, 0.25));
+    }
+
+    /* pengalaman */
+
+    .title-experience {
+        margin: 250px 0 50px 0;
+    }
+
+    .title-experience h3 {
+        font-size: 16px;
+    }
+
+    .title-experience label {
+        font-size: 14px;
+    }
+
+
+    .exa
+    .table-responsive .row .dataTables_length {
+        display: flex;
+        justify-content: flex-start;        
+    }
+
+    .table-responsive .row .dataTables_filter {
+        display: flex;
+        justify-content: flex-end;  
+        margin: 0;      
+    }
+
+
+
+    .contact .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .contact-item {
+        width: 50%;
+        font-size: 14px;
+    }
+
+    .alamat label {
+        font-size: 20px;
+    }
+
+    .tocontact label {
+        font-size: 20px;
+    }
+
+    .alamat {
+        margin: 12px 0;
+    }
+
+    .table {
+        font-size: 16px;
+    }
+
+    .tocontact {
+        margin: 0;
+    }
+
+    /* footer */
+
+    .footer .container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .footer-item-menu {
+        margin: 20px 0;
+    }
+
+    .contact-list-item p {
+        font-size: 12px;
+    }
+
+    .sosmed-footer ul {
+        display: flex;
+        flex-direction: row;
+        box-sizing: border-box;
+        justify-content: center;
+        margin-left: 1px;
+        padding: 0;
+    }
+    .sosmed-footer li {
+        margin: 0 14px;
+    }
+
+    .footer2 {
+        font-size: 14px;
+        
+    }
+
+    .footer2 p {
+        margin: 0;
+    }
+
+    .fa-map-location-dot {
+        margin-bottom: 12px;
+    }
+
+
+}
+
+@media only screen and (min-width: 800px) {
+    .about3 {
+        height: 530px;
+    }
+
+    .about3 img {
+        width: 180px;
+        height: 240px;
+        top: 220px;
+        left: 626px;
+        padding: 4px 0 0 4px;
+        border-left: 4px solid white;
+        border-top: 4px solid white;
+    }
+
+    .about3-main {
+        width: 690px;
+        height: 290px;
+        top: 50px;
+    }
+
+    .about4-item {
+        width: 34%;
+        height: 190px;
+    }
+
+    .about4-item img {
+        width: 100%;
+        height: 215px;
+    }
+
+    .about4 h4 {
+        font-size: 15px;
+        margin: 32px 0 0 20px;
+    }
+
+    .about4 a {
+
+        margin-left: 20px;
+        font-size: 14px;
+    }
+
+    .about4 i {
+        margin: 0 8px;
+    }
+
+    .about4-main {
+        margin-top: 120px;
+        padding-bottom: 26px;
+        width: 100%;
+        background: linear-gradient(rgba(224, 224, 224, 0), rgba(81, 88, 93, 1));
+    }
+}
+
+@media only screen and (min-width: 820px) {
+    .about3 {
+        height: 530px;
+    }
+
+    .about3 img {
+        width: 200px;
+        height: 250px;
+        top: 220px;
+        left: 628px;
+        padding: 4px 0 0 4px;
+        border-left: 4px solid white;
+        border-top: 4px solid white;
+    }
+
+    .about3-main {
+        width: 720px;
+        height: 310px;
+        top: 50px;
+    }
+
+    .about4-item {
+        width: 34%;
+        height: 190px;
+    }
+
+    .about4-item img {
+        width: 100%;
+        height: 215px;
+    }
+
+    .about4 h4 {
+        font-size: 15px;
+        margin: 32px 0 0 20px;
+    }
+
+    .about4 a {
+
+        margin-left: 20px;
+        font-size: 14px;
+    }
+
+    .about4 i {
+        margin: 0 8px;
+    }
+
+    .about4-main {
+        margin-top: 120px;
+        padding-bottom: 26px;
+        width: 100%;
+        background: linear-gradient(rgba(224, 224, 224, 0), rgba(81, 88, 93, 1));
+    }
+}
+
+@media only screen and (min-width: 834px) {
+    .about3 {
+        height: 530px;
+    }
+
+    .about3 img {
+        width: 200px;
+        height: 260px;
+        top: 220px;
+        left: 633px;
+        padding: 4px 0 0 4px;
+        border-left: 4px solid white;
+        border-top: 4px solid white;
+    }
+
+    .about3-main {
+        width: 720px;
+        height: 290px;
+        top: 50px;
+    }
+
+    .about4-item {
+        width: 34%;
+        height: 190px;
+    }
+
+    .about4-item img {
+        width: 100%;
+        height: 215px;
+    }
+
+    .about4 h4 {
+        font-size: 15px;
+        margin: 32px 0 0 20px;
+    }
+
+    .about4 a {
+
+        margin-left: 20px;
+        font-size: 14px;
+    }
+
+    .about4 i {
+        margin: 0 8px;
+    }
+
+    .about4-main {
+        margin-top: 120px;
+        padding-bottom: 26px;
+        width: 100%;
+        background: linear-gradient(rgba(224, 224, 224, 0), rgba(81, 88, 93, 1));
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+
+    .img-about {
+        height: 300px;
+    }
+
+    .ye12 label {
+        font-size: 50px;
+        font-weight: 700;
+    }
+
+    .ye12 p {
+        font-size: 14px;
+    }
+    
+    .about3 {
+        height: 530px;
+    }
+
+    .about3 img {
+        width: 200px;
+        height: 250px;
+        top: 220px;
+        left: 824px;
+        padding: 4px 0 0 4px;
+        border-left: 4px solid white;
+        border-top: 4px solid white;
+    }
+
+    .about3-main-item {
+        width: 70%;
+    }
+
+    .about3-main {
+        width: 920px;
+        height: 327px;
+        top: 90px;
+    }
+
+    .about4-item {
+        width: 34%;
+        height: 260px;
+    }
+
+    .about4-item img {
+        width: 100%;
+        height: 260px;
+    }
+
+    .about4 h4 {
+        font-size: 15px;
+        margin: 32px 0 0 20px;
+    }
+
+    .about4 a {
+
+        margin-left: 20px;
+        font-size: 14px;
+    }
+
+    .about4 i {
+        margin: 0 8px;
+    }
+
+    .about4-main {
+        margin-top: 160px;
+        padding-bottom: 26px;
+        width: 100%;
+        background: linear-gradient(rgba(224, 224, 224, 0), rgba(81, 88, 93, 1));
+    }
+
+    .title-about5 label {
+        font-size: 14px;
+    }
+
+    .about5-list-item h3 {
+        font-size: 20px;
+    }
+
+    .picture-about5 img {
+        width: 140px;
+        height: 190px;
+    }
+
+    .nameandjabatan h5 {
+        font-size: 16px;
+    }
+
+    .nameandjabatan label {
+        font-size: 14px;
+    }
+
+    .about6-item {
+        width: 50%;
+    }
+
+    .about6-item h1 {
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+
+    .doc .main-text {
+        width: 80%;
+    }
+
+    .doc1{
+        margin-top: 100px;
+    }
+
+    .title-experience h3 {
+        font-size: 24px;
+    }
+    
+    .title-experience label {
+        font-size: 20px;
+    }
+
+    .contact-item td {
+        font-size: 18px;
+    }
+
+    .contact-list-item label {
+        font-size: 18px;
+    }
+
+    .contact-list-item p {
+        font-size: 16px;
+    }
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+
+    .img-about {
+        height: 350px;
+    }
+
+    .imgab1 {
+        width: 230px;
+        height: 350px;
+        left: 5px;
+    }
+
+    .imgab2 {
+        width: 230px;
+        height: 350px;
+        top: 196px;
+        left: 90px;
+    }
+
+    .ye12 {
+        width: 188px;
+        height: 188px;
+        top: 175px;
+        left: 35px;
+    }
+
+    .ye12 label {
+        font-size: 60px;
+        font-weight: 700;
+    }
+
+    .ye12 p {
+        font-size: 16px;
+    }
+
+    .about-item {
+        width: 100%;
+    }
+
+    .about1-main {
+        margin-top: 88px;
+    }
+
+    .about-item h1 {
+        font-size: 29px;
+    }
+
+    .about-main p {
+        font-size: 20px;
+    }
+
+    .about-item li {
+        font-size: 14px;
+        margin: 5px 0;
+    }
+
+    .about .button a {
+        font-weight: 500;
+        border-radius: 2px;
+        padding: 10px 11px;
+        font-size: 12px;
+    }
+
+
+    .about2 {
+        height: 520px;
+    }
+
+    .about2-item p {
+        font-size: 18px;
+    }
+    
+    .about2-item {
+        width: 30%;
+        margin: 100px 18px 0 18px;
+        height: 400px;
+    }
+
+    .about2-item img {
+        width: 320px;
+    }
+    
+    .about2-item .for12y {
+        letter-spacing: 3px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .about3 {
+        height: 930px;
+    }
+
+    .about3 img {
+        width: 310px;
+        height: 380px;
+        top: 400px;
+        left: 890px;
+        padding: 9px 0 0 9px;
+        border-left: 8px solid white;
+        border-top: 8px solid white;
+    }
+
+    .about3-main {
+        width: 1120px;
+        height: 377px;
+        top: 90px;
+    }
+
+    .about3-main-item {
+        margin: 20px 0;
+        width: 600px;
+    }
+    
+    .about3-main-item label {
+        font-size: 20px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        margin-bottom: 40px;
+    }
+    
+    .about3-main-item p {
+        font-size: 18px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+    }
+
+    .about4-item {
+        width: 34%;
+        font-family: "Roboto", sans-serif;
+        height: 423px;
+    }
+
+    .about4-item img {
+        
+        
+        height: 423px;
+    }
+
+    .about4 h4 {
+        color: white;
+        margin: 310px 0 0 20px;
+        font-size: 22px;
+    }
+
+    .about4 a {
+        margin-left: 20px;
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+    }
+
+    .about4 i {
+        margin: 0 8px;
+    }
+
+    .about4-main {
+        font-family: "Roboto", sans-serif;
+        width: 100%;
+        margin-top: 2px;
+        background: linear-gradient(rgba(224, 224, 224, 0), rgba(81, 88, 93, 1));
+        padding-bottom: 58px;
+    }
+
+    .about4-main a:hover {
+        color: #c3c3c3;
+        font-weight: 500;
+    }
+
+    .title-about5 label {
+        font-size: 16px;
+    }
+
+    .about5-list-item h3 {
+        font-size: 24px;
+    }
+
+    .picture-about5 img {
+        width: 240px;
+        height: 350px;
+    }
+
+    .nameandjabatan h5 {
+        font-size: 24px;
+    }
+
+    .nameandjabatan label {
+        font-size: 20px;
+    }
+
+    .doc1 {
+        display: flex;
+        flex-direction: row;
+        box-sizing: border-box;
+        margin-top: 100px;
+    }
+
+    .doc1-item {
+        width: 50%;
+    }
+
+    .doc1-text {
+        margin: 20px 0 0 20px;
+    }
+
+    .doc2 {
+        display: flex;
+        flex-direction: row-reverse;
+        box-sizing: border-box;
+        padding-bottom: 70px;
+    }
+
+    .doc2-item {
+        width: 50%;
+    }
+
+    .doc1-text  {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .doc1-text h3 {
+        margin: 50px 0 0 50px;
+    }
+
+    .doc1-text p {
+        margin: 40px 0 0 50px;
+    }
+
+    .doc2-text {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .doc2-text h3 {
+        margin: 50px 0 0 50px;
+    }
+
+    .doc2-text p {
+        margin: 40px 0 0 50px;
+    }
+
+    .main-text {
+        font-size: 16px;
+        
+    }
+
+}
+
+@media only screen and (min-width: 1280px) {
+
+    .about3 img {
+        left: 950px;
+    }
+}
+
+@media only screen and (min-width: 1366px) {
+    
+    .about3-main-item {
+        width: 80%;
+    }
+    .about3 img {
+        top: 330px;
+        left: 1056px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    
+    .img-about {
+        height: 370px;
+    }
+
+    .about1 {
+        height: 900px;
+    }
+
+    .imgab1 {
+        width: 290px;
+        height: 450px;
+        left: 30px;
+    }
+
+    .imgab2 {
+        width: 290px;
+        height: 450px;
+        top: 286px;
+        left: 140px;
+    }
+
+    .ye12 {
+        width: 218px;
+        height: 218px;
+        top: 265px;
+        left: 88px;
+    }
+
+    .ye12 label {
+        font-size: 70px;
+        font-weight: 700;
+    }
+
+    .about-item .ye12 p {
+        font-size: 20px;
+    }
+
+    .about-label {
+        font-size: 26px;
+    }
+
+    .about-item h1 {
+        font-size: 50px;
+        font-weight: 700;
+    }
+
+    .about-item p {
+        font-size: 24px;
+    }
+
+    .about-item li {
+        font-size: 22px;
+        margin: 20px 0;
+    }
+
+    .about-item .button a {
+        padding: 16px;
+        font-size: 16px;
+    }
+
+    .about3 {
+        height: 1200px;
+    }
+
+    .about3-main {
+        width: 85%;
+        height: 60%;
+    }
+
+    .about3 img {
+        width: 370px;
+        height: 430px;
+        top: 600px;
+        left: 1030px;
+    }
+
+    .about4-item {
+        width: 480px;
+    }
+
+    .about4-main {
+        margin-top: 2px;
+        padding: 30px;
+    }
+
+    
+
+    .title-about5 label {
+        font-size: 22px;
+    }
+
+    .about5-item h3 {
+        font-size: 32px;
+    }
+
+    .about6-item h1 {
+        font-size: 40px;
+    }
+
+    .about6-item .buttonget a {
+        padding: 18px;
+        font-size: 16px;
+    }
+
+    .doc1-item h3 {
+        font-size: 40px;
+    }
+
+    .doc2-item h3 {
+        font-size: 40px;
+    }
+
+    .main-text p {
+        font-size: 22px;
+    }
+
+    .title-experience h3 {
+        font-size: 30px;
+    }
+
+    .title-experience label {
+        font-size: 24px;
+    }
+
+    .contact-item label {
+        font-size: 28px;
+    }
+
+    .contact-item .title-td {
+        font-size: 22px;
+    }
+
+    .contact-item td {
+        font-size: 20px;
+    }
+
+    .title-footer label {
+        font-size: 22px;
+    }
+
+    .footer-item-menu a {
+        font-size: 18px;
+    }
+
+    .footer-contact-list label {
+        font-size: 21px;
+    }
+
+    .footer-contact-list p {
+        font-size: 18px;
+    }
+
+}
+
+@media only screen and (min-width: 1440px) {
+
+    .about3 {
+        height: 1080px;
+    }
+
+    .about3-main {
+        height: 50%;
+    }
+
+    .about3-main-item {
+        width: 66%;
+    }
+
+    .about3 img {
+        width: 370px;
+        height: 430px;
+        top: 470px;
+        left: 1070px;
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+    
+    .nav1 {
+        height: 50px;
+    }
+    .sosmednav a {
+        font-size: 16px;
+    }
+
+    .contactnav li {
+        font-size: 16px;
+    }
+
+    .contactnav i {
+        font-size: 16px;
+    }
+
+    .collapse li {
+        font-size: 19px;
+    }
+
+    .translate a {
+        font-size: 19px;
+    }
+
+    .fa-search {
+        font-size: 20px;
+    }
+
+    .about1 {
+        height: 900px;
+    }
+
+    .imgab1 {
+        width: 290px;
+        height: 450px;
+        left: 30px;
+    }
+
+    .imgab2 {
+        width: 290px;
+        height: 450px;
+        top: 286px;
+        left: 140px;
+    }
+
+    .ye12 {
+        width: 218px;
+        height: 218px;
+        top: 265px;
+        left: 88px;
+    }
+
+    .ye12 label {
+        font-size: 70px;
+        font-weight: 700;
+    }
+
+    .ye12 p {
+        font-size: 18px;
+    }
+
+    .about-label {
+        font-size: 26px;
+    }
+
+    .about-item h1 {
+        font-size: 50px;
+        font-weight: 700;
+    }
+
+    .about-item p {
+        font-size: 24px;
+    }
+
+    .about-item li {
+        font-size: 22px;
+        margin: 20px 0;
+    }
+
+    .about-item .button a {
+        padding: 16px;
+        font-size: 16px;
+    }
+
+    .about3 {
+        height: 1600px;
+    }
+
+    .about3-main {
+        top: 200px;
+        width: 86%;
+        height: 50%;
+    }
+
+    .about3 img {
+        width: 470px;
+        height: 630px;
+        top: 600px;
+        left: 1430px;
+    }
+
+    .about3-main-item {
+        width: 80%;
+    }
+
+    .about3-main-item label {
+        font-size: 36px;
+    }
+
+    .about3-main-item p {
+        font-size: 28px;
+    }
+
+    .about4-item {
+        width: 34%;
+        height: 579px;
+    }
+
+    .about4-main {
+        
+        margin-top: 80px;
+        padding: 70px 0;
+    }
+
+    .about4-main h4 {
+        font-size: 30px;
+    }
+
+    .about4-main a {
+        font-size: 25px;
+    }
+
+    .about4-item img {
+        height: 600px;
+    }
+
+    .title-about5 label {
+        font-size: 28px;
+    }
+
+    .about5-item img {
+        width: 300px;
+        height: 440px;
+    }
+
+    .nameandjabatan h5 {
+        font-size: 30px;
+    }
+
+    .nameandjabatan label {
+        font-size: 28px;
+    }
+
+    .about5-item h3 {
+        font-size: 36px;
+    }
+
+    .about6-item h1 {
+        width: 95%;
+        font-size: 44px;
+    }
+
+    .about6-item .buttonget a {
+        padding: 18px;
+        font-size: 16px;
+    }
+
+    .doc1{
+        margin-top: 150px;
+    }
+
+    .doc1-item h3 {
+        font-size: 50px;
+        margin-left: 140px;
+    }
+
+    .doc2-item h3 {
+        font-size: 50px;
+        margin-left: 140px;
+    }
+
+    .main-text p {
+        font-size: 22px;
+        margin-left: 140px;
+    }
+
+    .title-experience h3 {
+        font-size: 30px;
+    }
+
+    .title-experience label {
+        font-size: 24px;
+    }
+
+    .contact {
+        margin-top: 300px;
+    }
+
+    .contact-item label {
+        font-size: 32px;
+    }
+
+    .contact-item .title-td {
+        font-size: 26px;
+    }
+
+    .alamat {
+        margin-left: 50px;
+    }
+
+    .tocontact {
+        margin-left: 50px;
+    }
+
+    .contact-item td {
+        font-size: 24px;
+    }
+
+    .title-footer label {
+        font-size: 26px;
+    }
+
+    .footer-item-menu a {
+        font-size: 22px;
+    }
+
+    .footer-contact-list label {
+        font-size: 26px;
+    }
+
+    .footer-contact-list p {
+        font-size: 24px;
+    }
+
+    .fa-map-location-dot {
+        font-size: 34px;
+        margin: 0;
+        
+    }
+
+    .contact-list-item .fa-solid {
+        padding: 24px 16px;
+    }
+
+
+    .fa-envelope {
+        font-size: 34px;
+    }
+
+    .fa-phone {
+        font-size: 34px;
+    }
+
+    .footer .footer-logo img {
+        width: 240px;
+    }
+
+    .footer .sosmed-footer ul {
+        margin-top: 60px;
+    }
+
+    .footer .sosmed-footer li i {
+        font-size: 35px;
+        margin: 0 12px;
+    }
+
+    .footer2 p {
+        font-size: 24px;
+    }
+
+}
+
+@media only screen and (min-width: 1920px) {
+
+    .navbar {
+        height: 130px;
+    }
+
+    .search-box {
+        margin-top: 8px;
+    }
+
+    .navbar-brand {
+        margin-top: -9px;
+    }
+
+    .navbar-nav {
+        margin-top: -9px;
+    }
+
+    .navbar form {
+        margin-top: -9px;
+    }
+
+    .nav1 li {
+        font-size: 16px;
+    }
+
+    .contactnav i {
+        font-size: 14px;
+    }
+
+    .sosmednav i {
+        font-size: 19px;
+    }
+    .nav-link {
+        font-size: 19px;
+    }
+
+    .translate .en {
+        font-size: 19px;
+    }
+
+    .translate .id {
+        font-size: 19px;
+    }
+
+    .navbar-brand img {
+        margin-top: -9px;
+    }
+
+    .about3-main-item {
+        width: 78%;
+    }
+
+    .about3 img {
+        width: 470px;
+        height: 630px;
+        top: 680px;
+        left: 1450px;
+    }
+
+}
